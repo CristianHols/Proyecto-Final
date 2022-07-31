@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 1000;
+}
+.logo{
+    width: 150px;
+    height: 100%; 
+}
+.nav-link{
+    color:rgb(255, 255, 255) !important;
+}
+.navegador{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(137, 43, 226, 0.486);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 10rem;
+}
+body{
+    background-color: black;
+}
+.subtitulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+.subtitulo1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    margin-right: 30rem;
+}
+.tarjetas {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div.card:hover{
+        font-size: 2rem;
+        transform:scale(1.1);
+}
+div .card-body{
+    background-color: #2e0e4b;
+    padding: 3rem;
+}
+div .card-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.intro{
+    display: grid;
+    grid-template: repeat(3 800px);
+    justify-content: space-around;
+    align-content: center;
+}
+.text{
+    margin: 3rem 4rem 3rem 4rem;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.introtxt{
+    display: grid;
+    grid-template: repeat(3 800px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+div .card-header{
+    background-color: #60219b !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: right;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+div .card-footer{
+    background-color: #60219b !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+
+}
