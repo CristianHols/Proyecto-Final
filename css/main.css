@@ -11,6 +11,7 @@ nav{
     top:0;
     width:100%;
     z-index: 1000;
+    background-color: black !important;
 }
 .logo{
     width: 150px;
@@ -255,4 +256,8 @@ label{
 }
 .you:hover{
     transform:scale(1.2);
+}
+footer{
+    background-color: black !important;
+}
 }
