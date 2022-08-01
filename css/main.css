@@ -18,6 +18,12 @@ nav{
 }
 .nav-link{
     color:rgb(255, 255, 255) !important;
+    font-size: 1.5rem;
+}
+.atr{
+    margin-top: 5rem;
+    width: 100px;
+    height: 100%; 
 }
 .navegador{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -40,7 +46,7 @@ body{
 }
 .subtitulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(255, 255, 255);
+    color: #f00d0d;
     text-align: center;
     font-size: 3rem;
     margin-top: 8rem;
@@ -48,11 +54,43 @@ body{
 }
 .subtitulo1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(255, 255, 255);
+    color: #f00d0d;
     text-align: right;
     font-size: 2rem;
     margin-bottom: 5rem;
     margin-right: 30rem;
+}
+.subtitulo2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f00d0d;
+    text-align: right;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    margin-right: 45rem;
+}
+.subtitulo3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+.subtitulo4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f00d0d;
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    margin-right: 30rem;
+    margin-bottom: 5rem;
+}
+.sub{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f00d0d;
+    text-align: left;
+    font-size: 2rem;
+
 }
 .tarjetas {
     display:flex;
@@ -73,6 +111,12 @@ div .card-text{
     font-size: 1.4rem;
     text-align: center;
 }
+div .card-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f00d0d;
+    font-size: 1.7rem;
+    text-align: left;
+}
 .intro{
     display: grid;
     grid-template: repeat(3 800px);
@@ -80,7 +124,7 @@ div .card-text{
     align-content: center;
 }
 .text{
-    margin: 3rem 4rem 3rem 4rem;
+    margin: 6rem 4rem 3rem 1rem;
     font-size: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
@@ -109,5 +153,52 @@ div .card-footer{
     text-align: center;
     padding: 2rem;
     font-size: 1.5rem;
-
+}
+.card-text1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1.4rem;
+    text-align: justify;
+    margin: 2rem;
+}
+.infoxtra{
+    margin-right: 5rem;
+}
+.pie{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(145, 141, 141);
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+.infogame{
+    display: grid;
+    grid-template: repeat(3 800px);
+    justify-content: center;
+    align-items: center;
+    margin-left: 12rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+.infogame1{
+    margin-left: 12rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+} 
+.ctext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.image{
+    width: 400px;
+    height: 100%;
+    padding: 1rem;
+}
+.colim{
+    margin-left: 20rem;
 }
