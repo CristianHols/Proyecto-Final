@@ -199,6 +199,22 @@ div .card-footer{
     height: 100%;
     padding: 1rem;
 }
+.image1{
+    margin-left: 1rem;
+    width: 900px;
+    height: 100%;
+    padding: 1rem;
+    
+}
 .colim{
     margin-left: 20rem;
+}
+.down1{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+.img-fluid:hover{
+    font-size: 2rem;
+    transform:scale(1.1);
 }
